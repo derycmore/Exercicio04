@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    
+}
+p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+.linha{
+    display: flex;
+}
+.caixa{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 1px;
+}
+.vazio{
+    width: 1630px;
+    height: 100px;
+    margin: 1px;
+}
+.vazio2{
+    width: 1019px;
+    height: 100px;
+    margin: 1px;
+}
+.vazio3{
+    width: 1619px;
+    height: 100px;
+    margin: 3px;
+}
+.vaziolinha{
+    width: 1700px;
+    height: 30px;
+}
+.alcalino{
+    background-color: burlywood;
+}
+.terroso{
+    background-color: chocolate;
+}
+.semimetal{
+    background-color: gold;
+}
+.representa{
+    background-color: darkgray;
+}
+.nometal{
+    background-color: rgb(147, 60, 150);
+}
+.halogeneos{
+    background-color:darkolivegreen ;
+}
+.nobres{
+    background-color: rgb(124, 124, 255);
+}
+.transicao{
+    background-color: blue;
+}
+.hidrogenio{
+    background-color: #ff0000;
+}
