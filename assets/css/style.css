@@ -1,7 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #828083;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
 }
 h2{
     text-align: center;
@@ -11,11 +20,17 @@ h2{
 p{
     text-align: center;
 }
+p1{
+    font-weight: bold;
+}
 .container{
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
+}
+span{
+    margin: 5px;
 }
 .linha{
     display: flex;
@@ -23,9 +38,15 @@ p{
 .caixa{
     width: 100px;
     height: 100px;
-    border: 2px solid #000;
+    border: 2px solid #000000;
     border-radius: 5px;
-    margin: 1px;
+    margin: 1px;    
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.caixa:hover{
+    transform: scale(1.4);
 }
 .vazio{
     width: 1630px;
@@ -36,9 +57,20 @@ p{
     width: 1019px;
     height: 100px;
     margin: 1px;
+    justify-items: center;
 }
 .vazio3{
     width: 1619px;
+    height: 100px;
+    margin: 3px;
+}
+.vazio4{
+    width: 300px;
+    height: 100px;
+    margin: 3px;
+}
+.vazio5{
+    width: 100px;
     height: 100px;
     margin: 3px;
 }
@@ -50,26 +82,37 @@ p{
     background-color: burlywood;
 }
 .terroso{
-    background-color: chocolate;
+    background-color: rgb(206, 119, 57);
 }
 .semimetal{
     background-color: gold;
 }
 .representa{
-    background-color: darkgray;
+    background-color: rgb(65, 146, 221);
 }
 .nometal{
-    background-color: rgb(147, 60, 150);
+    background-color: rgb(255, 0, 0);
 }
 .halogeneos{
     background-color:darkolivegreen ;
 }
 .nobres{
-    background-color: rgb(124, 124, 255);
+    background-color: rgb(0, 255, 21);
 }
 .transicao{
-    background-color: blue;
+    background-color: rgb(101, 101, 243);
 }
 .hidrogenio{
     background-color: #ff0000;
+}
+.lanta{
+    background-color: #0034dd;
+}
+.activia{
+    background-color: #ff8800;
+}
+.caixa1{
+    height: 20px;
+    width: 75px;
+    border: 1px solid #000000;
 }
