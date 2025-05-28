@@ -1,117 +1,145 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;;
+    box-sizing: border-box;
+    ;
 }
-body{
+
+body {
     width: 100vw;
     height: 100vh;
     background-color: #828083;
 }
-h1{
+
+h1 {
     font-size: 80px;
     text-align: center;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 35px;
-    
+
 }
-p{
+
+p {
     text-align: center;
 }
-p1{
+
+p1 {
     font-weight: bold;
 }
-.container{
+
+.container {
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
 }
-span{
+
+span {
     margin: 5px;
 }
-.linha{
+
+.linha {
     display: flex;
 }
-.caixa{
+
+.caixa {
     width: 100px;
     height: 100px;
     border: 2px solid #000000;
     border-radius: 5px;
-    margin: 1px;    
+    margin: 1px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
 }
 
-.caixa:hover{
-    transform: scale(1.4);
+.caixa:hover {
+    transform: scale(1.2);
 }
-.vazio{
+
+.vazio {
     width: 1630px;
     height: 100px;
     margin: 1px;
 }
-.vazio2{
+
+.vazio2 {
     width: 1019px;
     height: 100px;
     margin: 1px;
     justify-items: center;
 }
-.vazio3{
+
+.vazio3 {
     width: 1619px;
     height: 100px;
     margin: 3px;
 }
-.vazio4{
+
+.vazio4 {
     width: 300px;
     height: 100px;
     margin: 3px;
 }
-.vazio5{
+
+.vazio5 {
     width: 100px;
     height: 100px;
     margin: 3px;
 }
-.vaziolinha{
+
+.vaziolinha {
     width: 1700px;
     height: 30px;
 }
-.alcalino{
+
+.alcalino {
     background-color: burlywood;
 }
-.terroso{
+
+.terroso {
     background-color: rgb(206, 119, 57);
 }
-.semimetal{
+
+.semimetal {
     background-color: gold;
 }
-.representa{
+
+.representa {
     background-color: rgb(65, 146, 221);
 }
-.nometal{
+
+.nometal {
     background-color: rgb(255, 0, 0);
 }
-.halogeneos{
-    background-color:darkolivegreen ;
+
+.halogeneos {
+    background-color: darkolivegreen;
 }
-.nobres{
+
+.nobres {
     background-color: rgb(0, 255, 21);
 }
-.transicao{
+
+.transicao {
     background-color: rgb(101, 101, 243);
 }
-.hidrogenio{
+
+.hidrogenio {
     background-color: #ff0000;
 }
-.lanta{
+
+.lanta {
     background-color: #0034dd;
 }
-.activia{
+
+.activia {
     background-color: #ff8800;
 }
-.caixa1{
+
+.caixa1 {
     height: 20px;
     width: 75px;
     border: 1px solid #000000;
